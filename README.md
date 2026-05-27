@@ -1,78 +1,53 @@
-\# QualiGenAI AI Reliability Engine
+# QualiGenAI – AI Reliability Engine
 
+An AI Reliability & Hallucination Testing Framework designed to evaluate LLM responses for:
+- Hallucination Detection
+- Prompt Robustness
+- Response Consistency
+- Safety Validation
+- QA-driven AI Testing
 
+## Features
+- AI Response Evaluation
+- Prompt Test Suites
+- Reliability Scoring
+- JSON Report Generation
+- Automated Validation Pipelines
 
-Hallucination Testing Framework for RAG, AI Chatbots and Multi-Agent AI Systems.
+## Tech Stack
+- Python
+- OpenAI API
+- FastAPI
+- Pytest
+- Pandas
 
+## Project Structure
+```bash
+project/
+│
+├── tests/
+├── prompts/
+├── reports/
+├── src/
+├── README.md
+└── requirements.txt
+```
 
+## Installation
 
-\## What This Project Does
+```bash
+pip install -r requirements.txt
+```
 
+## Run
 
+```bash
+python app.py
+```
 
-This project validates AI systems before production by checking:
-
-
-
-\- Factual correctness
-
-\- Context grounding
-
-\- Citation accuracy
-
-\- Retrieval quality
-
-\- Prompt injection resistance
-
-\- Tool/function validation
-
-\- Business rule compliance
-
-
-
-\## Systems Under Test
-
-
-
-1\. Hybrid RAG v1.5
-
-2\. Srisailam Pilgrim WhatsApp Bot
-
-3\. Multi-Agent QA Orchestration System
-
-
-
-\## MVP Goal
-
-
-
-The first MVP validates Hybrid RAG v1.5 using golden test questions and generates a JSON reliability report.
-
-
-
-\## Current Status
-
-
-
-Day 1: Project foundation setup.
-
-
-
-\## Planned Features
-
-
-
-\- Golden answer testing
-
-\- Hallucination scoring
-
-\- RAG response validation
-
-\- Risk classification
-
-\- Auto-remediation suggestions
-
-\- Streamlit dashboard
-
-\- CI/CD quality gate
-
+## Future Enhancements
+- Dashboard UI
+- CI/CD Integration
+- Multi-LLM Comparison
+- Bias Detection
+- Reliability Metrics Visualization
