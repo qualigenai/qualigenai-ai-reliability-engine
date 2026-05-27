@@ -1,0 +1,17 @@
+.env
+
+.venv/
+venv/
+
+__pycache__/
+*.pyc
+
+reports/json/*.json
+reports/html/*.html
+
+evidence/
+
+.idea/
+.vscode/
+
+.DS_Store
